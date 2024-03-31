@@ -1,0 +1,56 @@
+---
+roles:
+  - name: m18unet.packer
+    version: 1.0.0
+
+  - name: m18unet.mkcert
+    version: 1.0.0
+
+  - name: m18unet.dive
+    version: 1.0.0
+
+  - name: m18unet.hugo
+    version: 1.0.0
+
+  - name: m18unet.lazygit
+    version: 1.0.0
+
+  - name: m18unet.task
+    version: 1.0.0
+
+  - name: m18unet.helm
+    version: 1.0.0
+
+  - name: m18unet.minikube
+    version: 1.0.0
+
+  - name: m18unet.kubectx
+    version: 1.0.0
+
+  - name: m18unet.terraform
+    version: 1.0.0
+
+  - name: m18unet.k9s
+    version: 1.0.2
+
+  - name: m18unet.skaffold
+    version: 1.0.0
+
+  - name: m18unet.kind
+    version: 1.0.0
+
+  - name: m18unet.kubectl
+    version: 1.0.0
+
+  - name: m18unet.kube_capacity
+    version: 1.0.0
+
+  - name: m18unet.kubens
+    version: 1.0.0
+
+  - name: m18unet.stern
+    version: 1.0.0
+
+collections:
+  - name: community.general
+    version: ">=8.5.0"

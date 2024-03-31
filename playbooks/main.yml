@@ -1,0 +1,11 @@
+---
+- name: Hello Play
+  hosts: localhost
+  gather_facts: false
+  become: false
+
+  tasks:
+    - debug: msg={{ item }}
+      with_items:
+        - "Hello!"
+        - "Ansible version is v{{ ansible_version.string }}"
